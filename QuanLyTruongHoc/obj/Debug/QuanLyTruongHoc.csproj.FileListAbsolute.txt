@@ -1,0 +1,320 @@
+E:\LT Web\QuanLyTruongHoc\bin\QuanLyTruongHoc.dll.config
+E:\LT Web\QuanLyTruongHoc\bin\QuanLyTruongHoc.dll
+E:\LT Web\QuanLyTruongHoc\bin\QuanLyTruongHoc.pdb
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\csc.exe
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\csc.exe.config
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\csc.rsp
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\csi.exe
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\csi.exe.config
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\csi.rsp
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\Microsoft.Managed.Core.targets
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.AppContext.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.Collections.Immutable.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.Console.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.Globalization.Calendars.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.IO.Compression.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.IO.FileSystem.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.Net.Http.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.Net.Sockets.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.Reflection.Metadata.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.ValueTuple.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.Xml.XmlDocument.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.Xml.XPath.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\vbc.exe
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\vbc.exe.config
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\vbc.rsp
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\VBCSCompiler.exe
+E:\LT Web\QuanLyTruongHoc\bin\roslyn\VBCSCompiler.exe.config
+E:\LT Web\QuanLyTruongHoc\bin\Antlr3.Runtime.dll
+E:\LT Web\QuanLyTruongHoc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\LT Web\QuanLyTruongHoc\bin\Microsoft.Web.Infrastructure.dll
+E:\LT Web\QuanLyTruongHoc\bin\Newtonsoft.Json.dll
+E:\LT Web\QuanLyTruongHoc\bin\Slugify.dll
+E:\LT Web\QuanLyTruongHoc\bin\System.Web.Helpers.dll
+E:\LT Web\QuanLyTruongHoc\bin\System.Web.Mvc.dll
+E:\LT Web\QuanLyTruongHoc\bin\System.Web.Optimization.dll
+E:\LT Web\QuanLyTruongHoc\bin\System.Web.Razor.dll
+E:\LT Web\QuanLyTruongHoc\bin\System.Web.WebPages.Deployment.dll
+E:\LT Web\QuanLyTruongHoc\bin\System.Web.WebPages.dll
+E:\LT Web\QuanLyTruongHoc\bin\System.Web.WebPages.Razor.dll
+E:\LT Web\QuanLyTruongHoc\bin\WebGrease.dll
+E:\LT Web\QuanLyTruongHoc\bin\System.Web.Helpers.xml
+E:\LT Web\QuanLyTruongHoc\bin\System.Web.Mvc.xml
+E:\LT Web\QuanLyTruongHoc\bin\System.Web.Optimization.xml
+E:\LT Web\QuanLyTruongHoc\bin\System.Web.Razor.xml
+E:\LT Web\QuanLyTruongHoc\bin\System.Web.WebPages.xml
+E:\LT Web\QuanLyTruongHoc\bin\System.Web.WebPages.Deployment.xml
+E:\LT Web\QuanLyTruongHoc\bin\System.Web.WebPages.Razor.xml
+E:\LT Web\QuanLyTruongHoc\bin\Newtonsoft.Json.xml
+E:\LT Web\QuanLyTruongHoc\bin\Antlr3.Runtime.pdb
+E:\LT Web\QuanLyTruongHoc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\LT Web\QuanLyTruongHoc\obj\Debug\QuanLyTruongHoc.csproj.CoreCompileInputs.cache
+E:\LT Web\QuanLyTruongHoc\obj\Debug\QuanLyTruongHoc.csproj.CopyComplete
+E:\LT Web\QuanLyTruongHoc\obj\Debug\QuanLyTruongHoc.dll
+E:\LT Web\QuanLyTruongHoc\obj\Debug\QuanLyTruongHoc.pdb
+E:\LT Web\QuanLyTruongHoc\obj\Debug\QuanLyTruongHoc.csproj.AssemblyReference.cache
+D:\QuanLyTruongHoc\bin\QuanLyTruongHoc.dll.config
+D:\QuanLyTruongHoc\bin\QuanLyTruongHoc.dll
+D:\QuanLyTruongHoc\bin\QuanLyTruongHoc.pdb
+D:\QuanLyTruongHoc\bin\roslyn\csc.exe
+D:\QuanLyTruongHoc\bin\roslyn\csc.exe.config
+D:\QuanLyTruongHoc\bin\roslyn\csc.rsp
+D:\QuanLyTruongHoc\bin\roslyn\csi.exe
+D:\QuanLyTruongHoc\bin\roslyn\csi.exe.config
+D:\QuanLyTruongHoc\bin\roslyn\csi.rsp
+D:\QuanLyTruongHoc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\QuanLyTruongHoc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\QuanLyTruongHoc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\QuanLyTruongHoc\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\QuanLyTruongHoc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\QuanLyTruongHoc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\QuanLyTruongHoc\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\QuanLyTruongHoc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\QuanLyTruongHoc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\QuanLyTruongHoc\bin\roslyn\Microsoft.Managed.Core.targets
+D:\QuanLyTruongHoc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\QuanLyTruongHoc\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.AppContext.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.Collections.Immutable.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.Console.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.Globalization.Calendars.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.IO.Compression.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.IO.FileSystem.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.Net.Http.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.Net.Sockets.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.Reflection.Metadata.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.ValueTuple.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.Xml.XmlDocument.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.Xml.XPath.dll
+D:\QuanLyTruongHoc\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\QuanLyTruongHoc\bin\roslyn\vbc.exe
+D:\QuanLyTruongHoc\bin\roslyn\vbc.exe.config
+D:\QuanLyTruongHoc\bin\roslyn\vbc.rsp
+D:\QuanLyTruongHoc\bin\roslyn\VBCSCompiler.exe
+D:\QuanLyTruongHoc\bin\roslyn\VBCSCompiler.exe.config
+D:\QuanLyTruongHoc\bin\Antlr3.Runtime.dll
+D:\QuanLyTruongHoc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\QuanLyTruongHoc\bin\Microsoft.Web.Infrastructure.dll
+D:\QuanLyTruongHoc\bin\Newtonsoft.Json.dll
+D:\QuanLyTruongHoc\bin\Slugify.dll
+D:\QuanLyTruongHoc\bin\System.Web.Helpers.dll
+D:\QuanLyTruongHoc\bin\System.Web.Mvc.dll
+D:\QuanLyTruongHoc\bin\System.Web.Optimization.dll
+D:\QuanLyTruongHoc\bin\System.Web.Razor.dll
+D:\QuanLyTruongHoc\bin\System.Web.WebPages.Deployment.dll
+D:\QuanLyTruongHoc\bin\System.Web.WebPages.dll
+D:\QuanLyTruongHoc\bin\System.Web.WebPages.Razor.dll
+D:\QuanLyTruongHoc\bin\WebGrease.dll
+D:\QuanLyTruongHoc\bin\System.Web.Helpers.xml
+D:\QuanLyTruongHoc\bin\System.Web.Mvc.xml
+D:\QuanLyTruongHoc\bin\System.Web.Optimization.xml
+D:\QuanLyTruongHoc\bin\System.Web.Razor.xml
+D:\QuanLyTruongHoc\bin\System.Web.WebPages.xml
+D:\QuanLyTruongHoc\bin\System.Web.WebPages.Deployment.xml
+D:\QuanLyTruongHoc\bin\System.Web.WebPages.Razor.xml
+D:\QuanLyTruongHoc\bin\Newtonsoft.Json.xml
+D:\QuanLyTruongHoc\bin\Antlr3.Runtime.pdb
+D:\QuanLyTruongHoc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\QuanLyTruongHoc\obj\Debug\QuanLyTruongHoc.csproj.AssemblyReference.cache
+D:\QuanLyTruongHoc\obj\Debug\QuanLyTruongHoc.csproj.CoreCompileInputs.cache
+D:\QuanLyTruongHoc\obj\Debug\QuanLyTruongHoc.csproj.CopyComplete
+D:\QuanLyTruongHoc\obj\Debug\QuanLyTruongHoc.dll
+D:\QuanLyTruongHoc\obj\Debug\QuanLyTruongHoc.pdb
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\QuanLyTruongHoc.dll.config
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\QuanLyTruongHoc.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\QuanLyTruongHoc.pdb
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\csc.exe
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\csc.exe.config
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\csc.rsp
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\csi.exe
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\csi.exe.config
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\csi.rsp
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\Microsoft.Managed.Core.targets
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.AppContext.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.Collections.Immutable.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.Console.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.Globalization.Calendars.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.IO.Compression.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.IO.FileSystem.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.Net.Http.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.Net.Sockets.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.Reflection.Metadata.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.ValueTuple.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.Xml.XmlDocument.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.Xml.XPath.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\vbc.exe
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\vbc.exe.config
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\vbc.rsp
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\VBCSCompiler.exe
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\roslyn\VBCSCompiler.exe.config
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\Antlr3.Runtime.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\Microsoft.Web.Infrastructure.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\Newtonsoft.Json.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\Slugify.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\System.Web.Helpers.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\System.Web.Mvc.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\System.Web.Optimization.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\System.Web.Razor.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\System.Web.WebPages.Deployment.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\System.Web.WebPages.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\System.Web.WebPages.Razor.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\WebGrease.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\System.Web.Helpers.xml
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\System.Web.Mvc.xml
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\System.Web.Optimization.xml
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\System.Web.Razor.xml
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\System.Web.WebPages.xml
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\System.Web.WebPages.Deployment.xml
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\System.Web.WebPages.Razor.xml
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\Newtonsoft.Json.xml
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\Antlr3.Runtime.pdb
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\obj\Debug\QuanLyTruongHoc.csproj.AssemblyReference.cache
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\obj\Debug\QuanLyTruongHoc.csproj.CoreCompileInputs.cache
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\obj\Debug\QuanLyTruongHoc.csproj.CopyComplete
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\obj\Debug\QuanLyTruongHoc.dll
+D:\0850070072_NGUYENHUNGQUOC_08TTMT_BaoCaoThucTap\QuanLyTruongHoc\obj\Debug\QuanLyTruongHoc.pdb
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\QuanLyTruongHoc.dll.config
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\QuanLyTruongHoc.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\QuanLyTruongHoc.pdb
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\csc.exe
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\csc.exe.config
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\csc.rsp
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\csi.exe
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\csi.exe.config
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\csi.rsp
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\Microsoft.Managed.Core.targets
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.AppContext.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.Collections.Immutable.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.Console.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.Globalization.Calendars.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.IO.Compression.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.IO.FileSystem.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.Net.Http.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.Net.Sockets.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.Reflection.Metadata.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.ValueTuple.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.Xml.XmlDocument.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.Xml.XPath.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\vbc.exe
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\vbc.exe.config
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\vbc.rsp
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\VBCSCompiler.exe
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\roslyn\VBCSCompiler.exe.config
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\Antlr3.Runtime.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\Microsoft.Web.Infrastructure.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\Newtonsoft.Json.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\Slugify.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\System.Web.Helpers.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\System.Web.Mvc.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\System.Web.Optimization.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\System.Web.Razor.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\System.Web.WebPages.Deployment.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\System.Web.WebPages.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\System.Web.WebPages.Razor.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\WebGrease.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\System.Web.Helpers.xml
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\System.Web.Mvc.xml
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\System.Web.Optimization.xml
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\System.Web.Razor.xml
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\System.Web.WebPages.xml
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\System.Web.WebPages.Deployment.xml
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\System.Web.WebPages.Razor.xml
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\Newtonsoft.Json.xml
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\Antlr3.Runtime.pdb
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\obj\Debug\QuanLyTruongHoc.csproj.AssemblyReference.cache
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\obj\Debug\QuanLyTruongHoc.csproj.CoreCompileInputs.cache
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\obj\Debug\QuanLyTruongHoc.csproj.CopyComplete
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\obj\Debug\QuanLyTruongHoc.dll
+D:\0850070072_NGUYENHUNGQUOC\QuanLyTruongHoc\obj\Debug\QuanLyTruongHoc.pdb

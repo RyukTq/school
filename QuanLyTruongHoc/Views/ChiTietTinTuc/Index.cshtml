@@ -1,0 +1,190 @@
+﻿@{
+    ViewBag.Title = Model.title;
+}
+
+
+@{
+    IEnumerable<QuanLyTruongHoc.Models.user> users = ViewData["User"] as IEnumerable<QuanLyTruongHoc.Models.user>;
+    IEnumerable<QuanLyTruongHoc.Models.comment> comments = ViewData["BinhLuan"] as IEnumerable<QuanLyTruongHoc.Models.comment>;
+}
+
+<div class="row mx-5 bg-white">
+    <div class="col-md-8">
+
+        <div class="news-detail panel-bd-top p-3 mt-4">
+            <h5>
+                <strong>@Model.title</strong>
+            </h5>
+
+            <span class="text-muted">
+                <i class="far fa-clock"></i> @string.Format("{0:dd/MM/yyyy}", Model.created_at)
+            </span>
+
+            <section class="py-3">@Html.Raw(Model.content)</section>
+        </div>
+
+        <div class="news-related panel-bd-top p-3">
+            <strong class="d-flex">Danh sách bài viết liên quan:</strong>
+
+            <section class="py-3">
+                <a class="" href="#">
+                    Thông báo xét tuyển ĐHCQ căn cứ kết quả học tập ở bậc thpt năm 2022 – đợt 5
+                </a><br>
+                <a class="" href="#">
+                    Thông báo xét tuyển ĐHCQ căn cứ kết quả thi tốt nghiệp THPT năm 2022 – bổ sung đợt 2
+                </a>
+            </section>
+        </div>
+
+        <hr />
+
+        <div class="row d-flex justify-content-center mb-4">
+            <div class="col-md-12">
+
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <div class="p-3 rounded shadow-sm mb-3" style="background-color: #f8f9fa;">
+                        <form action="@Url.Action("Create", "Comment", new { id = Model.slug })" method="post">
+                            <div class="d-flex flex-start w-100">
+                                <img class="rounded-circle shadow-1-strong mr-3"
+                                     src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(19).webp" alt="avatar" width="40"
+                                     height="40" />
+                                <div class="form-outline w-100">
+                                    <h6 class="fw-bold mb-1">@User.Identity.Name</h6>
+                                    <label class="form-label" for="textAreaExample">Nhập bình luận bên dưới</label>
+                                    <textarea class="form-control" id="comment_text" rows="4"
+                                              name="comment_text" style="background: #fff;"></textarea>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-end mt-2 pt-1">
+                                <button type="submit" class="btn btn-primary btn-sm">Gửi</button>
+                                &nbsp;
+                                <button type="reset" class="btn btn-outline-danger btn-sm">Hủy</button>
+                            </div>
+                        </form>
+                    </div>
+                }
+                else
+                {
+                    <h4 class="text-center text-danger py-3">Vui lòng đăng nhập để bình luận</h4>
+                }
+                <div class="card text-dark">
+                    <div class="card-body p-4">
+                        <h4 class="mb-0">Bình luận gần đây</h4>
+                        <p class="fw-light mb-0 pb-0">Các bình luận được sắp xếp mới nhất</p>
+
+                        @*<div class="d-flex flex-start">
+                                <img class="rounded-circle shadow-1-strong mr-3"
+                                     src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(23).webp" alt="avatar" width="60"
+                                     height="60" />
+                                <div>
+                                    <h6 class="fw-bold mb-1">Maggie Marsh</h6>
+                                    <div class="d-flex align-items-center mb-3">
+                                        <p class="mb-0">
+                                            March 07, 2021
+                                            <span class="badge bg-primary">Pending</span>
+                                        </p>
+                                        <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ml-2"></i></a>
+                                        <a href="#!" class="link-muted"><i class="fas fa-redo-alt ml-2"></i></a>
+                                        <a href="#!" class="link-muted"><i class="fas fa-heart ml-2"></i></a>
+                                    </div>
+                                    <p class="mb-0">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                        since the 1500s, when an unknown printer took a galley of type and
+                                        scrambled it.
+                                    </p>
+                                </div>
+                            </div>*@
+                    </div>
+
+                    @*<hr class="my-0" />*@
+
+                    @if (comments.Count() > 0)
+                    {
+                        foreach (var c in comments)
+                        {
+                            <div class="card-body p-4">
+                                <div class="d-flex flex-start">
+                                    <img class="rounded-circle shadow-1-strong mr-3"
+                                         src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(26).webp" alt="avatar" width="60"
+                                         height="60" />
+                                    <div>
+                                        <h6 class="fw-bold mb-1">
+                                            @foreach (var u in users)
+                                            {
+                                                if (c.user_id == u.id)
+                                                {
+                                                    @u.name
+                                                }
+                                            }
+                                        </h6>
+                                        <div class="d-flex align-items-center mb-3">
+                                            <p class="mb-0">
+                                                @string.Format("{0:dd/MM/yyyy}", Convert.ToDateTime(c.date).ToString())
+                                                @*<span class="badge bg-success text-white">Approved</span>*@
+                                            </p>
+                                            <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ml-2"></i></a>
+                                            <a href="#!" class="text-success"><i class="fas fa-redo-alt ml-2"></i></a>
+                                            <a href="#!" class="text-danger"><i class="fas fa-heart ml-2"></i></a>
+
+                                            @if (User.Identity.IsAuthenticated)
+                                            {
+                                                if (Session["UserGroupSession"].ToString() == "1")
+                                                {
+                                                    <a href="@Url.Action("Delete", "Comment", new { id = c.id })" class="text-danger"><i class="fas fa-trash-alt ml-2"></i></a>
+                                                }
+                                            }
+                                        </div>
+                                        <p class="mb-0">@c.comment_text</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr class="my-0" />
+                        }
+                    }
+                    else
+                    {
+                        <h4 class="text-center py-3">Chưa có bình luận nào</h4>
+                    }
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-4">
+        <div class="latest-news mt-4 shadow-sm">
+            <h5 class="text-white text-center">
+                <i class="far fa-newspaper"></i> Tin tức - Sự kiện
+            </h5>
+
+            <section class="p-2" style="overflow: auto; height: 400px;">
+                @foreach (var item in (IEnumerable<QuanLyTruongHoc.Models.@new>)ViewData["TinMoiNhat"])
+                {
+                    <div class="multiple-ttsk">
+                        <a class="text-decoration-none text-dark"
+                           href="@Url.Action("Index", "ChiTietTinTuc", new { id = @item.slug })">@item.title</a>
+                    </div>
+                }
+            </section>
+
+        </div>
+
+        <div class="panel py-3">
+            <div class="pb-3" style="border-top: 3px solid #f89c2c;"></div>
+            <a href="#">
+                <img src="~/Content/mycontent/img/panel/1.jpg" alt="" srcset="">
+            </a>
+            <a href="#">
+                <img src="~/Content/mycontent/img/panel/2.jpg" alt="" srcset="">
+            </a>
+            <a href="http://wwww.ciren.gov.vn/" target="_blank">
+                <img src="~/Content/mycontent/img/panel/3.jpg" alt="" srcset="">
+            </a>
+            <a href="http://www.dgmv.gov.vn/" target="_blank">
+                <img src="~/Content/mycontent/img/panel/4.jpg" alt="" srcset="">
+            </a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,101 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout-Admin.cshtml";
+}
+
+
+@model IEnumerable<QuanLyTruongHoc.Models.@new>
+@{
+    IEnumerable<QuanLyTruongHoc.Models.news_group> nhomtintucs = ViewData["NhomTinTuc"] as IEnumerable<QuanLyTruongHoc.Models.news_group>;
+    IEnumerable<QuanLyTruongHoc.Models.user> users = ViewData["User"] as IEnumerable<QuanLyTruongHoc.Models.user>;
+}
+
+
+
+
+<table class="table table-bordered table-hover">
+    <tr class="bg-info">
+        <th class="text-center">
+            Tiêu đề
+        </th>
+        <th class="text-center">
+            Ngày tạo
+        </th>
+        <th class="text-center">
+            Trạng thái
+        </th>
+        <th class="text-center">
+            Loại tin tức
+        </th>
+        <th class="text-center">
+            Người tạo
+        </th>
+        <th class="text-center">Hành động</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.title)
+        </td>
+        <td class="text-center">
+            @string.Format("{0:dd/MM/yyyy}", Convert.ToDateTime(Html.DisplayFor(modelItem => item.created_at).ToString()))
+        </td>
+
+        <td class="text-center">
+            @if (item.status == false)
+            {
+                <span class="label label-danger">Ẩn</span>
+            }
+            else
+            {
+                <span class="label label-success">Hiện</span>
+            }
+        </td>
+
+        <td class="text-center">
+            @foreach (var nt in nhomtintucs)
+            {
+                if (nt.id == item.newsgroup_id)
+                {
+                    @nt.name
+                }
+            }
+        </td>
+
+        <td class="text-center">
+            @foreach (var u in users)
+            {
+                if (u.id == item.user_id)
+                {
+                    @u.name
+                }
+            }
+        </td>
+
+        <td class="text-center">
+            @* @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+            @Html.ActionLink("Details", "Details", new { id = item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.id },
+                                                new { onclick = "return confirm('Xác nhận xóa tin tức này?')" })
+
+            *@
+            <a href="@Url.Action("Edit", "TinTuc", new { id = item.id})">
+                <i class="fa fa-edit btn btn-info btn-sm"></i>
+            </a> |
+            <a href="@Url.Action("Details", "TinTuc", new { id = item.id})">
+                <i class="btn btn-warning btn-sm">Details</i>
+            </a> |
+            <a href="@Url.Action("Delete", "TinTuc", new { id = item.id})" onclick="return confirm('Are you sure you want to delete this?')">
+                <i class="btn btn-danger btn-sm">Delete</i>
+            </a> |
+            <a href="@Url.Action("Create", "TinTuc", new { id = item.id})">
+                <i class="btn btn-success btn-sm">Create</i>
+            </a>
+        </td>
+    </tr>
+    }
+
+</table>
+
+

@@ -1,0 +1,240 @@
+﻿@{
+    ViewBag.Title = "Trường Đại học Tài nguyên và Môi trường Thành phố Hồ Chí Minh";
+}
+
+@model IEnumerable<QuanLyTruongHoc.Models.@new>
+
+
+<div class="container mt-4">
+
+    <div class="row mb-3">
+        <div class="col-md-12">
+            <div class="header-news p-2" style="background-color: #1fae66">
+                <h5 class="text-white text-center">
+                    <i class="far fa-newspaper"></i> Tin tức - Sự kiện
+                </h5>
+            </div>
+            <div class="bg-white p-2" id="content-news">
+                <div class="container">
+                    <div class="row">
+
+                        @foreach (var item in Model)
+                        {
+                            <div class="col-md-3 mb-2">
+                                <a class="text-decoration-none text-dark" href="@Url.Action("Index", "ChiTietTinTuc", new { id = @item.slug })">
+                                    <div class="card shadow-sm">
+                                        <img class="card-img-top" src="~/images/tintuc/@item.imageNews"
+                                             alt="Image News" width="210" height="130">
+                                        <div class="card-body">
+                                            <h6 class="card-title">
+                                                <i class="far fa-calendar-alt"></i>
+                                                @string.Format("{0:dd/MM/yyyy}", item.created_at)
+                                            </h6>
+                                            <p class="card-text">@item.title</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-12">
+            <div class="header-news p-2" style="background-color: #1fae66">
+                <h5 class="text-white text-center">
+                    <i class="fas fa-link"></i> Liên kết
+                </h5>
+            </div>
+            <div class="bg-white p-2">
+                <div id="slider2" class="carousel slide text-center pb-5" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#slider2" data-slide-to="0" class="active"></li>
+                        <li data-target="#slider2" data-slide-to="1"></li>
+                        <li data-target="#slider2" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/phong/01.png" alt=""
+                                             width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/phong/02.png" alt=""
+                                             width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/phong/03.png" alt=""
+                                             width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/phong/04.png" alt=""
+                                             width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/phong/05.jpg" alt=""
+                                             width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/phong/06.png" alt=""
+                                             width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/phong/07.png" alt=""
+                                             width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/phong/08.jpg" alt=""
+                                             width="230" height="70">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/khoa/khoa_moitruong.png"
+                                             alt="" width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/khoa/khoa_khituong_thuyvan.png"
+                                             alt="" width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/khoa/khoa_tainguyen_nuoc.png"
+                                             alt="" width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/khoa/khoa_quanly_datdai.png"
+                                             alt="" width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/khoa/khoa_tracdia_bando.png"
+                                             alt="" width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/khoa/khoa_diachat_khoángan.png"
+                                             alt="" width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded"
+                                             src="~/Content/mycontent/img/slider2/khoa/khoa_kinhte_tainguye_moitruong.png" alt=""
+                                             width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/khoa/khoa_vientham.png" alt=""
+                                             width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/khoa/khoa_bien_haidao.png"
+                                             alt="" width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/khoa/khoa_khoahoc_daicuong.png"
+                                             alt="" width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/khoa/khoa_lyluan_chinhtri.png"
+                                             alt="" width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/khoa/BO MON GDTC-GDQP.jpg"
+                                             alt="" width="230" height="70">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/trungtam/01.png" alt=""
+                                             width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/trungtam/02.png" alt=""
+                                             width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/trungtam/03.png" alt=""
+                                             width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/trungtam/04.png" alt=""
+                                             width="230" height="70">
+                                    </a>
+                                </div>
+                                <div class="col-md-3 p-3">
+                                    <a href="#">
+                                        <img class="rounded" src="~/Content/mycontent/img/slider2/trungtam/05.png" alt=""
+                                             width="230" height="70">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#slider2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#slider2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

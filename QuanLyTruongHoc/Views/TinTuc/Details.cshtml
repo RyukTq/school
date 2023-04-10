@@ -1,0 +1,107 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout-Admin.cshtml";
+}
+
+
+@model QuanLyTruongHoc.Models.@new
+@{
+    IEnumerable<QuanLyTruongHoc.Models.news_group> nhomtintucs = ViewData["NhomTinTuc"] as IEnumerable<QuanLyTruongHoc.Models.news_group>;
+}
+
+<div>
+    <h3 class="text-center"><strong>Chi tiết tin tức</strong></h3>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Tiêu đề
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.title)
+        </dd>
+
+        <dt>
+            Slug
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.slug)
+        </dd>
+
+        <dt>
+            Hình ảnh
+        </dt>
+
+        <dd>
+            <img src="~/images/tintuc/@Html.DisplayFor(model => model.imageNews)" width="350px" />
+        </dd>
+
+        <dt>
+            Ngày tạo
+        </dt>
+
+        <dd>
+            @string.Format("{0:dd/MM/yyyy}", Convert.ToDateTime(Html.DisplayFor(model => model.created_at).ToString()))
+        </dd>
+
+        <dt>
+            Ngày sửa
+        </dt>
+
+        <dd>
+            @string.Format("{0:dd/MM/yyyy}", Html.DisplayFor(model => model.updated_at))
+        </dd>
+
+        <dt>
+            Trạng thái
+        </dt>
+
+        <dd>
+            @*@Html.DisplayFor(model => model.status)*@
+            @if (Model.status == false)
+            {
+                <span class="label label-danger">Ẩn</span>
+            }
+            else
+            {
+                <span class="label label-success">Hiện</span>
+            }
+        </dd>
+
+        <dt>
+            Loại tin tức
+        </dt>
+
+        <dd>
+            @foreach (var nt in nhomtintucs)
+            {
+                if (nt.id == Model.newsgroup_id)
+                {
+                    @nt.name
+                }
+            }
+        </dd>
+
+        <dt>
+            Nội dung
+        </dt>
+
+        <dd>
+
+            <div style="background-color: whitesmoke; padding: 1.5rem; border-radius: 8px;">
+                @Html.Raw(Model.content)
+            </div>
+
+        </dd>
+
+    </dl>
+</div>
+<p>
+   @* @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")*@
+    <a href="@Url.Action("Edit", "TinTuc", new { id = Model.id })">
+        <i class="fa fa-edit btn btn-info btn-sm"></i>
+    </a> |
+    <a href="@Url.Action("Index", "TinTuc")"><i class="btn btn-warning btn-sm">Back To List</i></a>
+
+</p>

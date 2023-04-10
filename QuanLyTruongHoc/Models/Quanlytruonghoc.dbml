@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DH-TNMT" Class="QuanlytruonghocDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-EFKEOO1\MSI;Initial Catalog=DH-TNMT;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DH_TNMTConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.comments" Member="comments">
+    <Type Name="comment">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="user_id" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="news_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="comment_text" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Association Name="new_comment" Member="new" ThisKey="news_id" OtherKey="id" Type="new" IsForeignKey="true" DeleteRule="CASCADE" />
+      <Association Name="user_comment" Member="user" ThisKey="user_id" OtherKey="id" Type="user" IsForeignKey="true" DeleteRule="SET NULL" />
+    </Type>
+  </Table>
+  <Table Name="dbo.news" Member="news">
+    <Type Name="new">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="title" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="slug" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="imageNews" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="content" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="created_at" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="updated_at" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="status" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="user_id" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="newsgroup_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="new_comment" Member="comments" ThisKey="id" OtherKey="news_id" Type="comment" />
+      <Association Name="news_group_new" Member="news_group" ThisKey="newsgroup_id" OtherKey="id" Type="news_group" IsForeignKey="true" DeleteRule="SET NULL" />
+      <Association Name="user_new" Member="user" ThisKey="user_id" OtherKey="id" Type="user" IsForeignKey="true" DeleteRule="SET NULL" />
+    </Type>
+  </Table>
+  <Table Name="dbo.news_groups" Member="news_groups">
+    <Type Name="news_group">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="news_group_new" Member="news" ThisKey="id" OtherKey="newsgroup_id" Type="new" />
+    </Type>
+  </Table>
+  <Table Name="dbo.user_groups" Member="user_groups">
+    <Type Name="user_group">
+      <Column Name="id" Type="System.Byte" DbType="TinyInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="user_group_user" Member="users" ThisKey="id" OtherKey="usergroup_id" Type="user" />
+    </Type>
+  </Table>
+  <Table Name="dbo.users" Member="users">
+    <Type Name="user">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="created_at" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="updated_at" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="usergroup_id" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Association Name="user_comment" Member="comments" ThisKey="id" OtherKey="user_id" Type="comment" />
+      <Association Name="user_new" Member="news" ThisKey="id" OtherKey="user_id" Type="new" />
+      <Association Name="user_group_user" Member="user_group" ThisKey="usergroup_id" OtherKey="id" Type="user_group" IsForeignKey="true" DeleteRule="SET NULL" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,79 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout-Admin.cshtml";
+}
+
+
+@model IEnumerable<QuanLyTruongHoc.Models.@new>
+@{
+    IEnumerable<QuanLyTruongHoc.Models.news_group> nhomtintucs = ViewData["NhomTinTuc"] as IEnumerable<QuanLyTruongHoc.Models.news_group>;
+    IEnumerable<QuanLyTruongHoc.Models.user> users = ViewData["User"] as IEnumerable<QuanLyTruongHoc.Models.user>;
+}
+
+@*<p class="text-right" style="padding-top: 2.5rem;">
+        @Html.ActionLink("Thêm tin mới", "Create")
+    </p>*@
+
+<table class="table table-bordered table-hover">
+    <tr class="bg-info">
+        <th class="text-center">
+            Tiêu đề
+        </th>
+        <th class="text-center">
+            Ngày tạo
+        </th>
+        <th class="text-center">
+            Trạng thái
+        </th>
+        <th class="text-center">
+            Loại tin tức
+        </th>
+        <th class="text-center">
+            Người tạo
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.title)
+            </td>
+            <td class="text-center">
+                @string.Format("{0:dd/MM/yyyy}", Convert.ToDateTime(Html.DisplayFor(modelItem => item.created_at).ToString()))
+            </td>
+
+            <td class="text-center">
+                @if (item.status == false)
+                {
+                    <span class="label label-danger">Ẩn</span>
+                }
+                else
+                {
+                    <span class="label label-success">Hiện</span>
+                }
+            </td>
+
+            <td class="text-center">
+                @foreach (var nt in nhomtintucs)
+                {
+                    if (nt.id == item.newsgroup_id)
+                    {
+                        @nt.name
+                    }
+                }
+            </td>
+
+            <td class="text-center">
+                @foreach (var u in users)
+                {
+                    if (u.id == item.user_id)
+                    {
+                        @u.name
+                    }
+                }
+            </td>
+        </tr>
+    }
+
+</table>
