@@ -1,10 +1,10 @@
 # school
 Demo BMATHTTT
 Nhóm 5 gồm có 4 thành viên:
-Võ Thái Tài
-Nguyễn Hưng Quốc
-Nguyễn Phước Triều
-Nguyễn Anh Tú
+Võ Thái Tài,
+Nguyễn Hưng Quốc,
+Nguyễn Phước Triều,
+Nguyễn Anh Tú.
 
 
 Đề tài: Xây dựng quy định về sử dụng ứng dụng, và quy trình đảm bảo an toàn cho hệ thống.
